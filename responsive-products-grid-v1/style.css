@@ -1,0 +1,221 @@
+/* ---------------- GENERAL STYLES ---------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+    /* soft tech-themed background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+/* ---------------- HEADER STYLES ---------------- */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+    /* modern tech gradient */
+    padding: 40px 20px;
+    border-radius: 15px;
+    width: 95%;
+    max-width: 1200px;
+    color: #fff;
+}
+
+header .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header .slogan {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* ---------------- CONTAINER STYLES ---------------- */
+.container {
+    display: grid;
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ---------------- CARD STYLES ---------------- */
+.card {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+    gap: 10px;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------------- IMAGE STYLES ---------------- */
+.image-container {
+    border-radius: 5px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ---------------- DETAILS STYLES ---------------- */
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.brand-container {
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-container p {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #1e1e2f;
+}
+
+.title-price-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.title-container .title {
+    font-size: 18px;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.price-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 5px;
+    align-items: center;
+    width: 100%;
+}
+
+.price-now {
+    color: #e74c3c;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-price {
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #888;
+}
+
+@media (max-width: 700px) {
+
+    .title,
+    .price-now,
+    .main-price {
+        font-size: 14px;
+    }
+}
+
+/* ---------------- ABOUT US SECTION ---------------- */
+.about-us {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    margin-top: 80px;
+    background-color: #1e1e2f;
+    border-radius: 25px 25px 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    color: #ccc;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 700px) {
+    .about-us p {
+        font-size: 1rem;
+    }
+
+    header .title {
+        font-size: 2rem;
+    }
+
+    header .slogan {
+        font-size: 1rem;
+    }
+}
