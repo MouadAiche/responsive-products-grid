@@ -25,6 +25,7 @@ A modern and responsive product showcase website built with HTML and CSS, perfec
 📦 responsive products grid v1 
 ├── index.html  
 ├── style.css  
+├── readme.md
 └── assets/  
   └── images/  
     ├── Galaxy S23 Ultra.png  
@@ -32,7 +33,8 @@ A modern and responsive product showcase website built with HTML and CSS, perfec
     ├── Dell XPS 13 Laptop.png  
     ├── Google Pixel 8 Pro.png  
     ├── Huawei MatePad Pro.png  
-    └── MacBook Air M2.png  
+    └── MacBook Air M2.png 
+    
 ---
 
 ---
