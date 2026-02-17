@@ -20,6 +20,8 @@ A modern and responsive product showcase website built with HTML and CSS, perfec
 ---
 
 ## 📁 Project Structure  
+
+---
 📦 responsive products grid v1 
 ├── index.html  
 ├── style.css  
@@ -31,6 +33,7 @@ A modern and responsive product showcase website built with HTML and CSS, perfec
     ├── Google Pixel 8 Pro.png  
     ├── Huawei MatePad Pro.png  
     └── MacBook Air M2.png  
+---
 
 ---
 
