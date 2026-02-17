@@ -21,23 +21,23 @@ A modern and responsive product showcase website built with HTML and CSS, perfec
 
 ## 📁 Project Structure  
 
----
-📦 responsive products grid v1 
-├── index.html  
-├── style.css  
+```
+📦 responsive products grid v1
+├── index.html
+├── style.css
 ├── readme.md
-└── assets/  
-  └── images/  
-    ├── Galaxy S23 Ultra.png  
-    ├── Sony WH.png  
-    ├── Dell XPS 13 Laptop.png  
-    ├── Google Pixel 8 Pro.png  
-    ├── Huawei MatePad Pro.png  
-    └── MacBook Air M2.png 
-    
----
+└── assets/
+    └── images/
+        ├── Galaxy S23 Ultra.png
+        ├── Sony WH.png
+        ├── Dell XPS 13 Laptop.png
+        ├── Google Pixel 8 Pro.png
+        ├── Huawei MatePad Pro.png
+        └── MacBook Air M2.png
+```
 
 ---
+
 
 ## 🧠 How It Works  
 Product cards are structured using semantic HTML  
