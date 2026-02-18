@@ -141,10 +141,9 @@ header .slogan {
 .title-container .title {
     font-size: 18px;
     text-align: center;
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .price-container {
